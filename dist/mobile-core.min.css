@@ -1,9 +1,6 @@
-/*
-*  The copyright of this file belongs to DanielCardoso.net. The file cannot be
-*  reproduced in whole or in part, stored in a retrieval system,
-*  transmitted in any form, or by any means electronic, mechanical,
-*  photocopying, or otherwise, without the prior permission of the owner.
-*
-*  (c) 2015 DanielCardoso.net, Strictly Confidential
-*/
+/*! ========================================================
+ * Pure CSS Devices.
+ * =========================================================
+ * Copyright (c) 2015 DanielCardoso.net, Licensed under MIT.
+ * ========================================================= */
 .container-mobile{position:relative}.container-mobile *,.container-mobile *:after,.container-mobile *:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.container-mobile .mobile{position:relative;z-index:5;margin:0 auto;background:#000;border-color:#2f343e;border-style:solid}.container-mobile .mobile:before,.container-mobile .mobile:after{position:absolute;left:50%;content:"";background:#474e5d}.container-mobile .mobile:before{background:#474e5d}.container-mobile .mobile .screen{position:absolute;top:0;right:0;bottom:0;left:0;overflow:hidden;background-color:#fff}.container-mobile .shadow{position:absolute;left:50%;z-index:4;background-color:rgba(0,0,0,0.25)}.container-mobile .mobile{width:80px;height:160px;border-width:25px;border-right-width:5px;border-left-width:5px;border-radius:5px}.container-mobile .mobile:before{top:-12px;width:20px;height:4px;margin-left:-10px;border-radius:2px}.container-mobile .mobile:after{bottom:-18px;width:10px;height:10px;margin-left:-5px;border-radius:10px}.container-mobile .shadow{bottom:-3px;width:90px;height:6px;margin-left:-45px;border-radius:45px / 3px}
