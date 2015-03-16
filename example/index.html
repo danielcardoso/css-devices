@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../dist/desktop-core.min.css">
+    <link rel="stylesheet" href="../dist/laptop-core.min.css">
+    <link rel="stylesheet" href="../dist/mobile-core.min.css">
+
+    <style type="text/css" media="screen">
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            background: rgb(107, 213, 126);
+        }
+        .main {
+            position: absolute;
+            width: 720px;
+            height: 400px;
+            margin: 0 auto;
+            left: 50%;
+            top: 50%;
+            margin-left: -20px;
+            -webkit-transform: translate(-50%, -50%);
+               -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                 -o-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+        }
+        .container-desktop,
+        .container-laptop,
+        .container-mobile {
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+               -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                 -o-transform: translateX(-50%);
+                    transform: translateX(-50%);
+        }
+        .container-desktop {
+            z-index: 10;
+            margin-left: 117px;
+        }
+        .container-laptop {
+            margin-left: -190px;
+            z-index: 20;
+        }
+        .container-mobile {
+            margin-left: 320px;
+            z-index: 20;
+            bottom: 37px;
+        }
+        .container-desktop .screen {
+            background: rgb(251, 207, 97) !important;
+        }
+        .container-laptop .screen {
+            background: rgb(254, 124, 96) !important;
+        }
+        .container-mobile .screen {
+            background: rgb(255, 111, 111) !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container-desktop">
+            <div class="mac">
+                <div class="pc">
+                    <div class="camera"></div>
+                    <div class="logo"></div>
+                </div>
+                <div class="base">
+                    <div class="stand-top-shadow"></div>
+                    <div class="stand-top"></div>
+                    <div class="stand-bottom"></div>
+                    <div class="stand-bottom-height"></div>
+                    <div class="stand-shadow"></div>
+                </div>
+                <div class="keyboard">
+                    <div class="key-row row1"></div>
+                    <div class="key-row row2"></div>
+                    <div class="key-row row3"></div>
+                    <div class="key-row row4"></div>
+                </div>
+                <div class="keyboard-shadow"></div>
+            </div>
+            <div class="screen">
+            </div>
+        </div>
+
+        <div class="container-laptop">
+            <div class="laptop">
+                <div class="camera"></div>
+                <div class="screen"></div>
+            </div>
+            <div class="btm"></div>
+            <div class="shadow"></div>
+        </div>
+
+        <div class="container-mobile">
+            <div class="mobile">
+                <div class="screen"></div>
+            </div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+/*
+*  The copyright of this file belongs to DanielCardoso.net. The file cannot be
+*  reproduced in whole or in part, stored in a retrieval system,
+*  transmitted in any form, or by any means electronic, mechanical,
+*  photocopying, or otherwise, without the prior permission of the owner.
+*
+*  (c) 2015 DanielCardoso.net, Strictly Confidential
+*/
+/**
+ * Laptop pure CSS
+ */
+.container-laptop {
+    position: relative;
+    margin: 0 auto 30px;
+}
+.container-laptop *,
+.container-laptop *:after,
+.container-laptop *:before {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+.container-laptop > div {
+    z-index: 9;
+}
+.container-laptop .laptop {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.container-laptop .camera {
+    position: absolute;
+    left: 50%;
+    background-color: #a9afbf;
+}
+.container-laptop .camera:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: "";
+    background-color: rgba(0, 0, 0, .2);
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.container-laptop .btm {
+    position: relative;
+    margin: 0 auto;
+    background: #d7dde3;
+}
+.container-laptop .btm:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    content: "";
+    background: #b8bec4;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.container-laptop .shadow {
+    position: relative;
+    z-index: 4;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .25);
+}
+.container-laptop .screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset;
+}
+.container-laptop .laptop {
+    width: 260px;
+    height: 150px;
+    border: 12px solid #eaeef7;
+    border-radius: 10px 10px 0 0;
+}
+.container-laptop .camera {
+    top: -8px;
+    width: 4px;
+    height: 4px;
+    margin-left: -2px;
+    border-radius: 9px;
+}
+.container-laptop .camera:after {
+    width: 2px;
+    height: 2px;
+    border-radius: 9px;
+}
+.container-laptop .btm {
+    width: 340px;
+    height: 8px;
+    border-radius: 0 0 20px 20px;
+}
+.container-laptop .btm:before {
+    width: 50px;
+    height: 4px;
+    border-radius: 0 0 5px 5px;
+}
+.container-laptop .shadow {
+    width: 360px;
+    height: 12px;
+    margin-top: -5px;
+    border-radius: 180px / 6px;
+}
+.container-laptop .screen {
+    height: 150px;
+}

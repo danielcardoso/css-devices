@@ -1,0 +1,137 @@
+/*
+*  The copyright of this file belongs to DanielCardoso.net. The file cannot be
+*  reproduced in whole or in part, stored in a retrieval system,
+*  transmitted in any form, or by any means electronic, mechanical,
+*  photocopying, or otherwise, without the prior permission of the owner.
+*
+*  (c) 2015 DanielCardoso.net, Strictly Confidential
+*/
+/**
+ * Laptop pure CSS
+ */
+@media only screen and (min-width: 600px) and (max-width: 847px) {
+    .container-laptop {
+        margin: 0 auto 45px;
+    }
+    .container-laptop .laptop {
+        width: 390px;
+        height: 225px;
+        border: 18px solid #eaeef7;
+        border-radius: 15px 15px 0 0;
+    }
+    .container-laptop .camera {
+        top: -12px;
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        border-radius: 13px;
+    }
+    .container-laptop .camera:after {
+        width: 3px;
+        height: 3px;
+        border-radius: 13px;
+    }
+    .container-laptop .btm {
+        width: 510px;
+        height: 12px;
+        border-radius: 0 0 30px 30px;
+    }
+    .container-laptop .btm:before {
+        width: 75px;
+        height: 6px;
+        border-radius: 0 0 7px 7px;
+    }
+    .container-laptop .shadow {
+        width: 540px;
+        height: 18px;
+        margin-top: -8px;
+        border-radius: 270px / 9px;
+    }
+    .container-laptop .screen {
+        height: 225px;
+    }
+}
+@media only screen and (min-width: 848px) and (max-width: 1089px) {
+    .container-laptop {
+        margin: 0 auto 60px;
+    }
+    .container-laptop .laptop {
+        width: 520px;
+        height: 300px;
+        border: 24px solid #eaeef7;
+        border-radius: 20px 20px 0 0;
+    }
+    .container-laptop .camera {
+        top: -16px;
+        width: 8px;
+        height: 8px;
+        margin-left: -4px;
+        border-radius: 18px;
+    }
+    .container-laptop .camera:after {
+        width: 4px;
+        height: 4px;
+        border-radius: 18px;
+    }
+    .container-laptop .btm {
+        width: 680px;
+        height: 16px;
+        border-radius: 0 0 40px 40px;
+    }
+    .container-laptop .btm:before {
+        width: 100px;
+        height: 8px;
+        border-radius: 0 0 10px 10px;
+    }
+    .container-laptop .shadow {
+        width: 720px;
+        height: 24px;
+        margin-top: -10px;
+        border-radius: 360px / 12px;
+    }
+    .container-laptop .screen {
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 1090px) {
+    .container-laptop {
+        margin: 0 auto 75px;
+    }
+    .container-laptop .laptop {
+        width: 650px;
+        height: 375px;
+        border: 30px solid #eaeef7;
+        border-radius: 25px 25px 0 0;
+    }
+    .container-laptop .camera {
+        top: -20px;
+        width: 10px;
+        height: 10px;
+        margin-left: -5px;
+        border-radius: 22px;
+    }
+    .container-laptop .camera:after {
+        width: 5px;
+        height: 5px;
+        border-radius: 22px;
+    }
+    .container-laptop .btm {
+        width: 850px;
+        height: 20px;
+        border-radius: 0 0 50px 50px;
+    }
+    .container-laptop .btm:before {
+        width: 125px;
+        height: 10px;
+        border-radius: 0 0 12px 12px;
+    }
+    .container-laptop .shadow {
+        width: 900px;
+        height: 30px;
+        margin-top: -13px;
+        border-radius: 450px / 15px;
+    }
+    .container-laptop .screen {
+        height: 375px;
+    }
+}
