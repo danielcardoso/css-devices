@@ -16,7 +16,16 @@
             padding: 0;
             margin: 0;
             height: 100%;
-            background: rgb(107, 213, 126);
+            background: rgb(87, 207, 244);
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 200;
+        }
+        a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+        }
+        a:hover {
+            color: #fff;
         }
         .main {
             position: absolute;
@@ -66,6 +75,17 @@
         .container-mobile .screen {
             background: rgb(255, 111, 111) !important;
         }
+        .links {
+            position: absolute;
+            bottom: -40px;
+            right: 0;
+            left: 0;
+            text-align: center;
+            font-size: 19px;
+        }
+        .links a {
+            margin: 0 25px;
+        }
     </style>
 </head>
 <body>
@@ -110,6 +130,12 @@
                 <div class="screen"></div>
             </div>
             <div class="shadow"></div>
+        </div>
+
+        <div class="links">
+            <a href="desktop.html">Desktop</a>
+            <a href="laptop.html">Laptop</a>
+            <a href="mobile.html">Mobile</a>
         </div>
     </div>
 
